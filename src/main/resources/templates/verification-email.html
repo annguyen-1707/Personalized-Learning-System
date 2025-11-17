@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333333;
+        }
+        p {
+            color: #555555;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            background-color: #1a73e8;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .footer {
+            font-size: 13px;
+            color: #999999;
+            margin-top: 30px;
+        }
+        .support-link {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="https://i.postimg.cc/NMbTbmCz/z6617592221998-20a6f47ea8896c75bd37f9aa6c26ada2.jpg" alt="Ảnh của bạn">
+    <h2>Just one more step!</h2>
+    <p>Hello,</p>
+    <p>Thank you for registering with us. Please confirm your email address to complete your registration.</p>
+    <a href="{{TOKEN_LINK}}" class="button">Confirm Email</a>
+    <p class="footer">
+        Need help? <a href="mailto:thai110504@gmail.com" class="support-link">Contact support</a><br>
+        Hotline: 123-456-789<br>
+        Visit us at <a href="http://localhost:5173/" class="support-link">www.Ohayo.com</a>
+    </p>
+</div>
+</body>
+</html>

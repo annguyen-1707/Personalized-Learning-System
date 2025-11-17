@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký thất bại</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 450px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .crossmark {
+            font-size: 120px;
+            color: #dc3545;
+            font-weight: bold;
+            border: 5px solid #dc3545;
+            border-radius: 50%;
+            display: inline-block;
+            width: 140px;
+            height: 140px;
+            line-height: 130px;
+            text-align: center;
+            animation: pop 0.5s ease-in-out;
+        }
+        h2 {
+            font-size: 32px;
+            color: #333;
+            margin-top: 20px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes pop {
+            0% { transform: scale(0.5); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="crossmark">❌</div>
+    <h2>Registration Failed!</h2>
+</div>
+</body>
+</html>
